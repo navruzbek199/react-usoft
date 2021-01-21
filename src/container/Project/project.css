@@ -2,11 +2,11 @@
     font-size: 45px;
     text-align: left;
     font-weight: 700;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 .card-right{
-    margin-left: 60px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -147,7 +147,7 @@ svg:hover{
     color: #fff;
 }
 .news-title{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .news-title p{
     font-size: 40px;

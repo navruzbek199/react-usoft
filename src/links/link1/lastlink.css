@@ -1,5 +1,5 @@
 .link1-about{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .link1-about img{
     width: 100%;
@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 .link1-texts{
-    margin-left: 60px;
+    margin-left: 0px;
     margin-top: 40px;
 }
 @media screen and (max-width: 425px){

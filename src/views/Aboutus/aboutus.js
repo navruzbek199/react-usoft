@@ -1,26 +1,10 @@
 import React from 'react'
 import { Col, Container,  Row } from 'react-bootstrap';
 import './aboutus.css';
-import $ from 'jquery';
 
 
 function Aboutus() {
-    Number.prototype.format = function(n) {
-        var r = new RegExp('\\d(?=(\\d{3})+' + (n > 0 ? '\\.' : '$') + ')', 'g');
-        return this.toFixed(Math.max(0, Math.floor(n))).replace(r, '$&,');
-    };
     
-    $('.count').each(function () {
-        $(this).prop('counter', 0).animate({
-            counter: $(this).text()
-        }, {
-            duration: 10000,
-            easing: 'easeOutExpo',
-            step: function (step) {
-                $(this).text('' + step.format());
-            }
-        });
-    });
     return (
       <div>
         <Container>
@@ -89,8 +73,7 @@ function Aboutus() {
           </Row>
           <Row>
             <Col md={12}>
-              <div className="work-galery">
-                <img src="./Image13.png"></img>
+              <div className="work-galery parallax" style={{ backgroundImage: "url(/Image13.png)" }}>
               </div>
             </Col>
           </Row>

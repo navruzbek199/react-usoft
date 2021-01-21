@@ -1,10 +1,8 @@
-import React, {useEffect} from 'react'
+import React  from 'react'
 import { Col, Container, Row, NavLink  } from 'react-bootstrap';
 import './project.css';
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { TimelineLite, Power3, ScrollTrigger} from 'gsap';
-import gsap from 'gsap/gsap-core';
 import WOW from 'wowjs';
 
 
@@ -14,28 +12,6 @@ function Project() {
       live: false
   }).init();
 
-  let t1= new TimelineLite({ delay: 0.3 });
-
-  useEffect(() => {
-    t1.from('.hover2-img',
-    {y:15, opacity: 0, ease: Power3.easeOut, delay:0.2},'Start');
-    
-   
-
-    gsap.from(".container",{
-      duration: 3,
-      y: '100',
-      opacity: 0,
-      ease: 'ease-in',
-      scrollTrigger:{
-        trigger:'.card-right',
-        start: 'top 90%',
-        end: 'bottom 60%',
-        markers: true,
-        toggleActions: 'restart complate riverse reset',
-      }
-    })
-  }, [])
 
     return (
       <Container className="container">
@@ -50,7 +26,7 @@ function Project() {
         </Row>
         <Row className="row">
           <Col md={5}>
-            <div className="card-right wow bounceInLeft" data-wow-delay="0.3s" infinite >
+            <div className="card-right wow bounceInLeft" data-wow-delay="0.2s" infinite >
               <div className="card-title">
                 <p>Asturia Manus </p>
               </div>
@@ -63,7 +39,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo.png"></img>
+                    <img src="./Photo.png"/>
                   </div>
                   <div className="person-name">
                     <p>Игорь Германович</p>
@@ -86,7 +62,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image2.png"></img>
+                <img src="./Image2.png"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -113,7 +89,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo2.png"></img>
+                    <img src="./Photo2.png"/>
                   </div>
                   <div className="person-name">
                     <p>Таир Абдурахимов</p>
@@ -134,7 +110,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image3.png"></img>
+                <img src="./Image3.png"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -161,7 +137,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo3.png"></img>
+                    <img src="./Photo3.png"/>
                   </div>
                   <div className="person-name">
                     <p>Виктория Плясовицина</p>
@@ -183,7 +159,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image4.png"></img>
+                <img src="./Image4.png"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -210,7 +186,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo3.png"></img>
+                    <img src="./Photo3.png"/>
                   </div>
                   <div className="person-name">
                     <p>Хакимов Ришад</p>

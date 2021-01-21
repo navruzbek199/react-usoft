@@ -1,6 +1,6 @@
 .header-title{
     width: 100%;
-    padding:40px 0 100px 60px;
+    padding:40px 0 100px;
 }
 .header-title p{
     font-size: 18px;
@@ -28,7 +28,7 @@
     text-align: left;
     color: #000;
     margin-bottom: 40px;
-    padding:0 60px;
+    padding:0px;
     opacity: 0;
 }
 .tit_spn a{

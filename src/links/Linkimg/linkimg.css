@@ -1,12 +1,12 @@
 .link-img-title{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .link-img img{
     width: 100%;
     object-fit: contain;
 }
 .project{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .project p{
     font-size: 30px;

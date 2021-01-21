@@ -1,5 +1,5 @@
 .work-title{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-title h1{
     font-size: 40px;
@@ -19,7 +19,7 @@
     object-fit: contain;
 }
 .work-item{
-    margin-left: 60px;
+    margin-left: 0px;
     padding-top: 30px;
 }
 .work-item p{
@@ -31,7 +31,7 @@
     padding-top: 30px;
 }
 .work-item-img1{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-item-img1 img{
     width: 100%;
@@ -50,7 +50,7 @@
 }
 .work-text{
     padding-top: 100px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-text h2{
     font-size: 30px;
@@ -61,14 +61,14 @@
     margin-bottom: 24px;
 }
 .work-galery {
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-galery img{
     width: 100%;
     object-fit: contain;
 }
 .number-all{
-    margin-left: 60px;
+    margin-left: 0px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -83,7 +83,7 @@
 }
 
 .work-client{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-client p{
     font-size: 20px;
@@ -112,13 +112,13 @@
     color: #000;
 }
 .work-block-title{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .work-block-title h2{
     font-weight: 700;
 }
 .block-item{
-    margin-left: 60px;
+    margin-left: 0px;
     margin-bottom: 40px;
 }
 .block-item1{

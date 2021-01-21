@@ -8,10 +8,10 @@
     border: 1px solid #000;
 }
 .bisnes-title{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .bisnes-text{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 @media screen and (max-width: 425px) {
     .bisnes-title {

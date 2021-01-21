@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Nav, NavItem, NavLink, Row } from 'react-bootstrap';
+import { Col, Container, Nav, NavItem, Row } from 'react-bootstrap';
 import './sidebar.css';
 import { Link } from "react-router-dom"
 import $ from 'jquery';
@@ -11,6 +11,10 @@ class Sidebar extends React.Component{
     $('.hamburger-menu').on('click', function(){
         $('.hamburger-menu').removeClass('active')
         $('#nav-icon1').removeClass('open')
+    });
+    $('.hamburger-menu li').on('click', function(){
+      $('.hamburger-menu').removeClass('active')
+      $('#nav-icon1').removeClass('open')
     });
   }
     

@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-import { Col, Container, Row, NavLink, Button, Input, InputGroup, Form } from 'react-bootstrap';
+import { Col, Container, Row, NavLink, Button,  Form } from 'react-bootstrap';
 import './footer.css';
 import PhoneInput, { isValidPhoneNumber } from 'react-phone-number-input'
 

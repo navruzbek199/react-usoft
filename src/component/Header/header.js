@@ -1,5 +1,5 @@
 import React  from 'react'
-import { Container, Row , Nav, Col, Navbar } from 'react-bootstrap';
+import { Container, Row , Nav, Col } from 'react-bootstrap';
 import './header.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from '../Sidebar/sidebar';
@@ -15,6 +15,10 @@ class Header extends React.Component{
             $(this).toggleClass('open');
             $('.hamburger-menu').toggleClass("active");
         });
+        $('.hamburger-menu li').on('click', function(){
+            $('.hamburger-menu').removeClass('active')
+            $('#nav-icon1').removeClass('open')
+          });
     }
     
       

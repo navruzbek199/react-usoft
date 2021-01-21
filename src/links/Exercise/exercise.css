@@ -1,5 +1,5 @@
 .exercise-title {
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .card-about p{
     color: #595959;
@@ -25,7 +25,7 @@ h4{
     align-items: flex-start;
     justify-content: center;
     height: 100%;
-    margin-left: 60px;
+    margin-left: 0px;
     padding-left: 0;
     
 }

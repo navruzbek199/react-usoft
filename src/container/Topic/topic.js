@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import './topic.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {TweenMax, Power3, TweenLite } from 'gsap';
+import {TweenMax, Power3 } from 'gsap';
 import WOW from 'wowjs';
 
 
