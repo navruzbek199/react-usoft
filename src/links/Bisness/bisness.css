@@ -1,0 +1,48 @@
+.bisness-page-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.bisnes-text .btn{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.bisnes-title{
+    margin-left: 60px;
+}
+.bisnes-text{
+    margin-left: 60px;
+}
+@media screen and (max-width: 425px) {
+    .bisnes-title {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .bisnes-text{
+        margin-left: 0;
+    }
+    .works-page-3 {
+        position: relative;
+        top: 0;
+    }
+    .works-page-2 {
+        position: relative;
+        top: 0;
+    }
+    .works-page-4 {
+        position: relative;
+        top: 0;
+    }
+    .works-page-5 {
+        position: relative;
+        top: 0;
+    }
+    .works-page {
+        margin-bottom: 0px;
+    }
+    .work-block-title h2 {
+        font-size: 28px;
+    }
+}
+
+

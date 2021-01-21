@@ -1,0 +1,170 @@
+.footer{
+    background-color: #000;
+    padding-top: 25px;
+}
+.footer-title h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer-title p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.foter-link{
+    display: flex;
+    align-items: center;
+}
+.foter-link .nav-link{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 60px;
+    padding-left: 0;
+    border-bottom: 2px solid #595959;
+}
+.foter-link a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #595959;
+    text-decoration: none;
+}
+.footer-number a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-adres p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #595959;
+    margin-top: 10px;
+}
+.footer-brand p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+}
+.footer-brand{
+    margin-left: 60px;
+}
+.footer-title{
+    margin-left: 60px;
+}
+.foter-link{
+    margin-left: 60px;
+}
+.footer-number{
+    margin-left: 60px;
+}
+.footer-adres{
+    margin-left: 60px;
+}
+.footer-web{
+    display: block;
+    flex-direction: column;
+    float: left;
+}
+.footer-web .nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+}
+.footer-btn .btn{
+    margin-top: 36px;
+    background-color: #fff;
+    color: #000;
+    height: 60px;
+    border: 1px solid #000;
+    margin-left: 30px;
+}
+.PhoneInputCountryIconUnicode{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.form{
+    display: flex;
+}
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: 30px;
+    line-height: inherit;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+.PhoneInputCountry{
+    display: flex;
+}
+.PhoneInputCountrySelect{
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-title p {
+        font-size: 23px;
+    }
+    .footer-title h2 {
+        font-size: 40px;
+    }
+    .footer-brand{
+        margin-left: 0px;
+    }
+    .footer-title{
+        margin-left: 0px;
+    }
+    .foter-link{
+        margin-left: 0px;
+    }
+    .footer-number{
+        margin-left: 0px;
+    }
+    .footer-adres{
+        margin-left: 0px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .footer-title h2 {
+        font-size: 30px;
+    }
+    .footer-title p {
+        font-size: 20px;
+    }
+    .foter-link{
+        display: block;
+        align-items: center;
+    }
+    .form{
+        display: block;
+        flex-direction: column;
+    }
+    input {
+        font-size: 20px;
+        height: 45px;
+    }
+    .footer-btn .btn{
+        margin-top: 10px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    .footer-web .nav-link {
+        padding-left: 0;
+    }
+}
+
+

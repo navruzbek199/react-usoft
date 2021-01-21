@@ -1,0 +1,91 @@
+.header-title{
+    width: 100%;
+    padding:40px 0 100px 60px;
+}
+.header-title p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+
+.header-title .tit_spn{
+    display: flex;
+}
+.header-title .tit_spn span{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    color: #000;
+    margin-bottom: 30px;
+    padding: 6px 11px;
+}
+.header-about p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    margin-bottom: 40px;
+    padding:0 60px;
+    opacity: 0;
+}
+.tit_spn a{
+    text-decoration: none;
+} 
+.cursor:hover {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    background-size: cover;
+    z-index: 1;
+  } 
+  .project-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 180px auto;
+    height: 100%;
+  }
+
+@media screen and (max-width: 1024px) {
+    .header-title .tit_spn span {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header-title .tit_spn span {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header-title {
+        padding: 0;
+        margin-top: 40px;
+    }
+    .header-title .tit_spn {
+        display: block;
+        margin-bottom: 45px;
+    }
+    .header-title .tit_spn span {
+        margin-bottom: 0px;
+        padding: 8px 0;
+        display: block;
+        flex-direction: column;
+    }
+    .header-about p{
+        padding: 0;
+        margin-top: 10px;
+    }
+}

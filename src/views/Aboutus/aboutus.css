@@ -1,0 +1,163 @@
+.work-title{
+    margin-left: 60px;
+}
+.work-title h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+}
+.parallax{
+    min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.work-item{
+    margin-left: 60px;
+    padding-top: 30px;
+}
+.work-item p{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.work-about{
+    padding-top: 30px;
+}
+.work-item-img1{
+    margin-left: 60px;
+}
+.work-item-img1 img{
+    width: 100%;
+    object-fit: contain;
+    justify-content: center;
+}
+.work-item-img2 img{
+    width: 100%;
+    object-fit: contain;
+    justify-content: center;
+    align-items: stretch;
+    width: 435px;
+    height: 435px;
+    top: 80px;
+    position: absolute;
+}
+.work-text{
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.work-text h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.work-text p{
+    margin-bottom: 24px;
+}
+.work-galery {
+    margin-left: 60px;
+}
+.work-galery img{
+    width: 100%;
+    object-fit: contain;
+}
+.number-all{
+    margin-left: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+.number-all div span{
+    font-size: 35px;
+    font-weight: 700;
+}
+.number-all div p{
+    text-align: center;
+}
+
+.work-client{
+    margin-left: 60px;
+}
+.work-client p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+.right-title p{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.right-title::before{
+    display: flex;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+}
+.right-about p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.work-block-title{
+    margin-left: 60px;
+}
+.work-block-title h2{
+    font-weight: 700;
+}
+.block-item{
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.block-item1{
+    margin-bottom: 40px;
+}
+.block-img img{
+    object-fit: contain;
+    width: 222px;
+    height: 218px;
+    margin-bottom: 15px;
+}
+.block-title p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 768px) {
+    .work-item-img2 img {
+        width: 100%;
+        object-fit: contain;
+        justify-content: center;
+        align-items: stretch;
+        height: auto;
+        top: 80px;
+        position: absolute;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .number-all div span {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .work-galery img {
+        object-fit: contain;
+        width: 100%;
+    }
+    .work-title h1{
+        font-size: 22px;
+    }
+}

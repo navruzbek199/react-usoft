@@ -1,0 +1,145 @@
+.works-page{
+    margin-bottom: 250px;
+}
+.work-link:hover::after{
+    display: block;
+    content: '';
+    width: 30px;
+    height: 3px;
+    text-align: center;
+    background-color: #000;
+    margin: 10px auto;
+}
+.work-link{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+.work-link.active::after{
+    width: 30px;
+    height: 3px;
+    text-align: center;
+    background-color: #000;
+    margin: 10px auto;
+    display: block;
+    content: '';
+}
+.page-img img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.page-p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-p p{
+    margin-bottom: 40px;
+}
+.page-p p:nth-child(2){
+    margin-top: 0;
+}
+.page-p p span{
+    font-weight: 700; 
+}
+.works-page-2{
+    display: block;
+    position: absolute;
+    top: 100px;
+}
+.works-page-3{
+    display: block;
+    position: absolute;
+    top: 150px;
+}
+.works-page-4{
+    display: block;
+    position: absolute;
+    top: 200px;
+}
+.works-page-5{
+    display: block;
+    position: absolute;
+    top: 250px;
+}
+.works-page-1{
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+    .nav-item .nav-link {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .work-title h1 {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000;
+    }
+    .work-title {
+        margin-left: 0px;
+    }
+    .work-item {
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+    .work-item-img1 {
+        margin-left: 0px;
+    }
+    .work-item-img2 img {
+        width: 100%;
+        object-fit: contain;
+        justify-content: center;
+        align-items: stretch;
+        height: auto;
+        top: 0px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .work-text {
+        padding-top: 50px;
+        margin-left: 0px;
+    }
+    .work-galery img {
+        object-fit: contain;
+        height: 305px;
+        width: 305px;
+    }
+    .work-galery {
+        margin-left: 0px;
+    }
+    .number-all {
+        margin-left: 0px;
+        justify-content:center;
+        align-items: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .number-all div{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .number-all div span {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .number-all div p {
+        text-align: center;
+        font-size: 24px;
+    }
+    .work-client {
+        margin-left: 0px;
+    }
+    .work-client p {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
+
+}
+

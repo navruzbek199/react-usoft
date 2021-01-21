@@ -1,0 +1,123 @@
+.exercise-title {
+    margin-left: 60px;
+}
+.card-about p{
+    color: #595959;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.exercise-box-right .img-text-sec{
+    background-color: #7552e6;
+    color: #fff;
+}
+.exercise-box-right .text-midle{
+    color: #fff;
+}
+.exercise-box-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-left: 60px;
+    padding-left: 0;
+    
+}
+.exercise-box-left .hover-image{
+    padding-left: 0;
+}
+.exercise-box-left span{
+    color: #595959;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.exercise-box-left h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.exercise-btn .btn{
+    color: #000;
+}
+.exercise-box-left .image-text{
+    background-color: #e9a671;
+    top: 50%;
+    left: 55%;
+}
+.exercise-box-left .texts-midl{
+    color: #fff;
+}
+@media screen and (max-width: 1024px) {
+    .exercise-box-left {
+        margin-left: 0;
+        height: auto;
+    }
+    .card-image img{
+        width: 100%;
+    }
+    .exercise-box-left h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .exercise-box-left span {
+        color: #595959;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .card-about p {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .exercise-title {
+        margin-left: 0px;
+    }
+    h1 {
+        font-size: 2.0rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .card-left {
+        text-align: left;
+    }
+    .card-title {
+        margin: 0;
+    }
+    .exercise-box-left {
+        order: 2;
+    }
+    .exercise-box-right {
+        order: 1;
+    }
+    .exercise-page .col-md-5{
+        order: 2;
+    }
+    .exercise-page .col-md-6{
+        order: 1;
+    }
+    .exercise-btn .btn{
+        margin: 25px auto;
+    }
+    .work-block-title {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .block-item {
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+
+}   

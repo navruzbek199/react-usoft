@@ -1,0 +1,122 @@
+.blog-title{
+    margin-left: 60px;
+}
+.blog-title p{
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+.blog-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+.blog-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #595959;
+}
+.blog-left span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 20px;
+}
+.blog-left .btn{
+    color: #000;
+    border: 1px solid #595959;
+    background-color: #fff;
+}
+
+.blog-right{
+    width: 100%;
+}
+.blog-right:hover .blog-r-img{
+    opacity: 1;
+    cursor: pointer;
+}
+.blog-right:hover .img-text{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.blog-r-img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.blog-r-img img{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+    width: inherit;
+    
+}
+.img-text{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #e973b8;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.text-midl{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+@media screen and (max-width: 768px) {
+    .blog-title {
+        margin-left: 0px;
+    }
+    .blog-title p {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .blog-title {
+        margin-left: 0px;
+    }
+    .blog-title p {
+        font-size: 20px;
+        margin-top: 45px;
+        margin-bottom: 60px;
+    }
+    .blog-left{
+        order: 2;
+    }
+    .blog-r-img{
+        order: 1;
+    }
+    .blog-left .btn{
+        color: #000;
+        border: 1px solid #595959;
+        margin-bottom: 30px;
+        background-color: #fff;
+    }
+    .blog-r-img img{
+        margin-bottom: 30px;
+    }
+    .row{
+        margin: 0;
+        padding: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+}

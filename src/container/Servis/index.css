@@ -1,0 +1,192 @@
+.ser_tit p{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    padding-left: 60px;
+}
+.nav-link{
+    float: right;
+    display: block;
+    padding: 1rem;
+    overflow-x: scroll;
+}
+.ser_link .nav_ser{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    float: right;
+    color: #000;
+}
+.nav-servis{
+    padding-left: 60px;
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+}
+.hover-image{
+    padding-left: 60px;
+}
+.hover-image:hover .card-imagex{
+    opacity: 1;
+    cursor: pointer;
+}
+.hover-image:hover .image-text{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.card-imagex img{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: contain;
+    
+}
+.image-text{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #7552e6;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.texts-midl{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.card-title p{
+    font-size: 18px;
+}
+.card-about p{
+    font-size: 20px;
+}
+.btn{
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 13px 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.card-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .ser_link .nav_ser {
+        font-size: 18px;
+        float: left;
+    }
+    .card-left {
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ser_link .nav_ser {
+        font-size: 17px;
+        float: left;
+    }
+    .card-left {
+        margin-right: 60px;
+    }
+    .ser_tit p {
+        font-size: 30px
+    }
+    .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .hover-image {
+        padding-left: 0px;
+    }
+    .card-imagex img {
+        width: 170%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .ser_tit p {
+        padding-left: 0px;
+    }
+    .nav-servis {
+        padding-left: 0px;
+    }
+    .texts-midl {
+        font-size: 15px;
+    }
+    .image-text {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #7552e6;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+    }
+    .card-left{
+        margin-right:0;
+        text-align: center;
+    }
+    .card-title {
+        margin-bottom: .75rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .btn{
+        margin: 25px auto;
+    }
+    .ser_title p {
+        font-size: 26px;
+    }
+    .ser_title p {
+        text-align: center;
+        font-weight: 700;
+        margin-left: 0px;
+    }
+    
+
+}
+@media screen and (max-width: 1024px) {
+    .hover-image {
+        padding-left: 0px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .card-imagex img {
+        width: 170%;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .card-imagex img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

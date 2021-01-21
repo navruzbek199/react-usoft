@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* @font-face {
+  font-family: 'ProximaNova';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ProximaNova'), url('%PUBLIC_URL%/fonts/ProximaNova-Regular.woff') format('woff');;
+} */
+code{
+  font-family: 'ProximaNova';
+}
