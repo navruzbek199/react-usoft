@@ -17,7 +17,11 @@ import Works from './views/Works/works';
 import Exercise from './links/Exercise/exercise';
 import Bisness from './links/Bisness/bisness';
 
+
+
 function App() {
+
+
   
   return (
     <Router>
@@ -58,5 +62,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

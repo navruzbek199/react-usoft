@@ -8,7 +8,7 @@
     text-align: left;
     color: #000;
     margin-bottom: 20px;
-    opacity: 0;
+    opacity: 1;
 }
 
 .header-title .tit_spn{
@@ -29,7 +29,7 @@
     color: #000;
     margin-bottom: 40px;
     padding:0px;
-    opacity: 0;
+    opacity: 1;
 }
 .tit_spn a{
     text-decoration: none;
