@@ -147,7 +147,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image16.png"></img>
+                  <img src="./Image16.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -164,7 +164,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image17.png"></img>
+                  <img src="./Image17.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>

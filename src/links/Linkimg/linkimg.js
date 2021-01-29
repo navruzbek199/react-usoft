@@ -55,7 +55,7 @@ function Linkimg() {
             <Col md={6}>
               <div className="card-img">
                 <div className="clas-img">
-                  <img src="./box1.png"></img>
+                  <img src="./box1.png"/>
                 </div>
                 <div className="img-a-text">
                   <p>
@@ -68,7 +68,7 @@ function Linkimg() {
             <Col md={6}>
               <div className="card-img1">
                 <div className="clas1-img">
-                  <img src="./Image20.png"></img>
+                  <img src="./Image20.png"/>
                 </div>
                 <div className="img-a-text">
                   <p>
@@ -81,7 +81,7 @@ function Linkimg() {
             <Col md={6}>
               <div className="card-img">
                 <div className="clas-img">
-                  <img src="./Image21.png"></img>
+                  <img src="./Image21.png"/>
                 </div>
                 <div className="img-a-text">
                   <p>
@@ -94,7 +94,7 @@ function Linkimg() {
             <Col md={6}>
               <div className="card-img2">
                 <div className="clas2-img">
-                  <img src="./Image22.png"></img>
+                  <img src="./Image22.png"/>
                 </div>
               </div>
             </Col>

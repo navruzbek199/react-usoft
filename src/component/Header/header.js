@@ -32,7 +32,7 @@ class Header extends React.Component{
                     <Col md={12} className="col">
                         <Link to="/">
                         <div className="brand">
-                            <img src="./Logo Usoft.png"></img>
+                            <img src="./Logo Usoft.png" alt="logo"/>
                         </div>
                         </Link>
                         <Nav className="navbar">                    

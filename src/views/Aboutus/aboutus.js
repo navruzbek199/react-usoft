@@ -42,12 +42,12 @@ function Aboutus() {
           <Row>
             <Col md={6}>
               <div className="work-item-img1">
-                <img src="./Image11.png"></img>
+                <img src="./Image11.png"/>
               </div>
             </Col>
             <Col md={6}>
               <div className="work-item-img2">
-                <img src="./Image12.png"></img>
+                <img src="./Image12.png"/>
               </div>
             </Col>
           </Row>
@@ -141,7 +141,7 @@ function Aboutus() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image14.png"></img>
+                  <img src="./Image14.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -158,7 +158,7 @@ function Aboutus() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image15.png"></img>
+                  <img src="./Image15.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -177,7 +177,7 @@ function Aboutus() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image16.png"></img>
+                  <img src="./Image16.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -194,7 +194,7 @@ function Aboutus() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image17.png"></img>
+                  <img src="./Image17.png"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>

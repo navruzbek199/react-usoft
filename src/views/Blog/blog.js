@@ -40,7 +40,7 @@ function Blog() {
             <Col md={6}>
                 <div className="blog-right">
                     <div className="blog-r-img">
-                        <img src="./Image6.png"></img>
+                        <img src="./Image6.png"/>
                     </div>
                     <Link to="/bisness">
                     <div className="img-text">
@@ -74,7 +74,7 @@ function Blog() {
             <Col md={6}>
                 <div className="blog-right">
                     <div className="blog-r-img">
-                        <img src="./Image7.png"></img>
+                        <img src="./Image7.png"/>
                     </div>
                     <Link to="/bisness">
                     <div className="img-text">
@@ -108,7 +108,7 @@ function Blog() {
             <Col md={6}>
                 <div className="blog-right">
                     <div className="blog-r-img">
-                        <img src="./Image8.png"></img>
+                        <img src="./Image8.png"/>
                     </div>
                     <Link to="/bisness">
                     <div className="img-text">

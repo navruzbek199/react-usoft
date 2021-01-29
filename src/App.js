@@ -26,7 +26,6 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <div className="cursor"></div>
         <Header/>
         <Switch>
           <Route exact path="/">
