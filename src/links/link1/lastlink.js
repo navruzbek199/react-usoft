@@ -81,22 +81,22 @@ function Link1() {
             <div className="news-text">
               <p>
                 {" "}
-                <a href="#">
+                <Link to="/lastlink">
                   Последние советы для дизайнеров, <br></br> которые могут
                   улучшить ваше <br></br>
                   портфолио
-                </a>{" "}
+                </Link>{" "}
               </p>
               <span>10 июня 2020</span>
             </div>
             <div className="news-text">
               <p>
                 {" "}
-                <a href="#">
+                <Link to="/lastlink">
                   Umbrella soft анонсирует новое <br></br> поколение мобильных
                   приложений <br></br>
                   дизайн-курсы и советы
-                  </a>{" "}
+                  </Link>{" "}
               </p>
               <span>10 июня 2020</span>
             </div>

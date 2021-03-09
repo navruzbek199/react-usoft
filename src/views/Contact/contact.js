@@ -121,7 +121,7 @@ function Contact() {
         </Row>
       </Container>
         <div className="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d23982.019533108607!2d69.248468!3d41.292492!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1610032437549!5m2!1sen!2sus" tabindex="0" allowfullscreen="" frameborder="0" aria-hidden="false"/>
+        <Iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d23982.019533108607!2d69.248468!3d41.292492!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1610032437549!5m2!1sen!2sus" tabindex="0" allowfullscreen="" frameborder="0" aria-hidden="false"/>
         </div>
       </div>
     );
