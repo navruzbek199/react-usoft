@@ -18,6 +18,9 @@
     float: right;
     color: #000;
 }
+.nav_ser:hover{
+    color: #000;
+}
 .nav-servis{
     padding-left: 0px;
     display: flex;

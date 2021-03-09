@@ -141,7 +141,7 @@ svg {
     width: 40px;
     height: 40px;
     align-items: center;
-    color: #000;
+    color: #000 !important;
 }
 svg:hover{
     color: #fff;

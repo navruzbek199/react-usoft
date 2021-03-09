@@ -26,22 +26,22 @@ function  Servis() {
                 <Col>
                     <Nav className="nav-servis">
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0" href="#">Мобильные приложения</Nav.Link>
+                      <Nav.Link  className="ml-0 pl-0" href="/works">Мобильные приложения</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0" eventKey="#">Веб сайты</Nav.Link>
+                      <Nav.Link className="ml-0 pl-0" eventKey="/works">Веб сайты</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0"  eventKey="#">Автоматизация бизнеса</Nav.Link>
+                      <Nav.Link className="ml-0 pl-0"  eventKey="/works">Автоматизация бизнеса</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0" eventKey="#">Платформы онлайн-обучения</Nav.Link>
+                      <Nav.Link className="ml-0 pl-0" eventKey="/works">Платформы онлайн-обучения</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0" eventKey="#">SEO оптимизация</Nav.Link>
+                      <Nav.Link className="ml-0 pl-0" eventKey="/works">SEO оптимизация</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link className="ml-0 pl-0"  eventKey="#">Сопровождение сайтов</Nav.Link>
+                      <Nav.Link className="ml-0 pl-0"  eventKey="/works">Сопровождение сайтов</Nav.Link>
                     </Nav.Item>
                     </Nav>
                 </Col>  
