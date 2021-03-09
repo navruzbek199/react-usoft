@@ -43,7 +43,7 @@ function Footer() {
           <Row>
             <Col md={6}>
               <div className="footer-number">
-                <Link>+998 99 877 15 47</Link>
+                <NavLink>+998 99 877 15 47</NavLink>
               </div>
               <div className="footer-adres">
                 <p>

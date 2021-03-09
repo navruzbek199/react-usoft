@@ -56,9 +56,9 @@ function Topic() {
                   Разрабатываем уникальные решения для вашего бизнеса
                   </p>
                 <div className="tit_spn text-decoration-none wow fadeInDown" data-wow-delay="0.5s">
-                  <Link to="/"><span className="pl-0 t-1">Сайты</span></Link>
-                  <Link to="/"><span className=" t-2">Приложения</span></Link>
-                  <Link to="/"><span className="t-3">Автоматизация</span></Link>
+                  <NavLink><span className="pl-0 t-1">Сайты</span></NavLink>
+                  <NavLink><span className=" t-2">Приложения</span></NavLink>
+                  <NavLink><span className="t-3">Автоматизация</span></NavLink>
                 </div>
               </div>
               <div className="header-about">
