@@ -67,7 +67,7 @@ class Sidebar extends React.Component{
                   <Col md={12}>
                         <div className="burger-phone">
                             <p>Позвоните нам</p>
-                            <a href="#">+998 99 8771547</a>
+                            <Link>+998 99 8771547</Link>
                         </div>
                     </Col>
                 </Row>

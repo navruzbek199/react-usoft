@@ -225,7 +225,7 @@ function Project() {
             <div className="link-next">
               <div className="link-text">
                 <p>
-                  <a href="#">Посмотреть все проекты</a>
+                  <Link to="/">Посмотреть все проекты</Link>
                 </p>
               </div>
               <div className="next-icon">

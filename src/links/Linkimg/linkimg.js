@@ -41,7 +41,7 @@ function Linkimg() {
                   приготовлении алкогольных, безалкогольных коктейлей и при
                   охлаждении напитков и продуктов.
                 </p>
-                <a href="#">Посмотреть проект</a>
+                <Link to="/">Посмотреть проект</Link>
               </div>
             </Col>
           </Row>
@@ -125,7 +125,7 @@ function Linkimg() {
             <Col md={12}>
               <div className="design-link">
                   <Link>
-                    <a href="#">Следующий проект</a>  
+                    <Link to="/">Следующий проект</Link>  
                   </Link>
               </div>
             </Col>
