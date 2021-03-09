@@ -86,7 +86,7 @@ function Bisness() {
             <Col md={6} sm={12}>
               <div className="works-page-3">
               <div className="page-img">
-                <img src="Image27.png"></img>
+                <img src="Image27.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -110,7 +110,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image14.png"></img>
+                  <img src="./Image14.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -128,7 +128,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image15.png"></img>
+                  <img src="./Image15.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -147,7 +147,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image16.png"/>
+                  <img src="./Image16.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -164,7 +164,7 @@ function Bisness() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image17.png"/>
+                  <img src="./Image17.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>

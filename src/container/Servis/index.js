@@ -50,7 +50,7 @@ function  Servis() {
             <Col md={4}>
                 <div className="hover-image">
                     <div className="card-imagex">
-                        <img src="./Image.png"></img>
+                        <img src="./Image.png" alt="img"/>
                     </div>
                     <Link to="/bisness">
                         <div className="image-text">

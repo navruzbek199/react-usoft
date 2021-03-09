@@ -16,7 +16,7 @@ function Link1() {
                 Подписывайтесь на наш <br></br> канал Patreon: дизай <br></br>{" "}
                 -курсы и советы
               </h1>
-              <img src="./Image18.png"/>
+              <img src="./Image18.png" alt="img"/>
             </div>
             <div className="link1-texts">
               <p>

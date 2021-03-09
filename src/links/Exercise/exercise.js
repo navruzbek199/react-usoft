@@ -39,7 +39,7 @@ function Exercise() {
               <div className="exercise-box-right">
                 <div className="hover2-img">
                   <div className="card2-img">
-                    <img src="./Image.png"/>
+                    <img src="./Image.png" alt="img"/>
                   </div>
                   <Link to="/bisness">
                   <div className="img-text-sec">
@@ -56,7 +56,7 @@ function Exercise() {
               <div className="exercise-box-left">
                 <div className="hover-image">
                   <div className="card-image">
-                    <img src="./Image32.png"/>
+                    <img src="./Image32.png" alt="img"/>
                   </div>
                   <Link to="/bisness">
                   <div className="image-text">
@@ -111,7 +111,7 @@ function Exercise() {
               <div className="exercise-box-right">
                 <div className="hover2-img">
                   <div className="card2-img">
-                    <img src="./Image33.png"/>
+                    <img src="./Image33.png" alt="img"/>
                   </div>
                   <Link to="/bisness">
                   <div className="img-text-sec">
@@ -135,7 +135,7 @@ function Exercise() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image14.png"/>
+                  <img src="./Image14.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -153,7 +153,7 @@ function Exercise() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image15.png"/>
+                  <img src="./Image15.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -172,7 +172,7 @@ function Exercise() {
             <Col md={6}>
               <div className="block-item">
                 <div className="block-img">
-                  <img src="./Image16.png"/>
+                  <img src="./Image16.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>
@@ -189,7 +189,7 @@ function Exercise() {
             <Col md={6}>
               <div className="block-item1">
                 <div className="block-img">
-                  <img src="./Image17.png"/>
+                  <img src="./Image17.png" alt="img"/>
                 </div>
                 <div className="block-title">
                   <p>Внимание к нашему клиенту</p>

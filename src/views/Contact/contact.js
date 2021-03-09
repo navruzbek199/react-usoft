@@ -36,7 +36,7 @@ function Contact() {
           <Col md={1}></Col>
           <Col md={6}>
             <div className="contact-img">
-              <img src="./Image9.png"/>
+              <img src="./Image9.png" alt="img"/>
             </div>
           </Col>
         </Row>
@@ -107,7 +107,7 @@ function Contact() {
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <img src="./icon.png"/>
+                <img src="./icon.png" alt="img"/>
                 <h4>
                 Ваша заявка отправлена!
                 </h4>

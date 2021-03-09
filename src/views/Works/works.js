@@ -27,7 +27,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-1">
                 <div className="page-img">
-                  <img src="./Image24.png"/>
+                  <img src="./Image24.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -40,7 +40,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-2">
                 <div className="page-img">
-                  <img src="./Image25.png"/>
+                  <img src="./Image25.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -53,7 +53,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-1">
                 <div className="page-img">
-                  <img src="./Image26.png"/>
+                  <img src="./Image26.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -66,7 +66,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-3">
                 <div className="page-img">
-                  <img src="./Image27.png"/>
+                  <img src="./Image27.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -79,7 +79,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-1">
                 <div className="page-img">
-                  <img src="./Image28.png"/>
+                  <img src="./Image28.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -92,7 +92,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-4">
                 <div className="page-img">
-                  <img src="./Image29.png"/>
+                  <img src="./Image29.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -105,7 +105,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-1">
                 <div className="page-img">
-                  <img src="./Image30.png"/>
+                  <img src="./Image30.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>
@@ -118,7 +118,7 @@ function Works() {
             <Col md={6}>
               <div className="works-page-5">
                 <div className="page-img">
-                  <img src="./Image31.png"/>
+                  <img src="./Image31.png" alt="img"/>
                 </div>
                 <div className="page-p">
                   <p>

@@ -39,7 +39,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo.png"/>
+                    <img src="./Photo.png" alt="img" />
                   </div>
                   <div className="person-name">
                     <p>Игорь Германович</p>
@@ -62,7 +62,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image2.png"/>
+                <img src="./Image2.png" alt="img"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -89,7 +89,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo2.png"/>
+                    <img src="./Photo2.png" alt="img"/>
                   </div>
                   <div className="person-name">
                     <p>Таир Абдурахимов</p>
@@ -110,7 +110,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image3.png"/>
+                <img src="./Image3.png" alt="img"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -137,7 +137,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo3.png"/>
+                    <img src="./Photo3.png" alt="img"/>
                   </div>
                   <div className="person-name">
                     <p>Виктория Плясовицина</p>
@@ -159,7 +159,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image4.png"/>
+                <img src="./Image4.png" alt="img"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
@@ -186,7 +186,7 @@ function Project() {
               <div className="card-person">
                 <div className="person-about">
                   <div className="person-img">
-                    <img src="./Photo3.png"/>
+                    <img src="./Photo3.png" alt="img"/>
                   </div>
                   <div className="person-name">
                     <p>Хакимов Ришад</p>
@@ -208,7 +208,7 @@ function Project() {
           <Col md={6}>
             <div className="hover2-img wow bounceInRight" data-wow-delay="0.3s" infinite>
               <div className="card2-img">
-                <img src="./Image5.png"></img>
+                <img src="./Image5.png" alt="img"/>
               </div>
               <Link to="/linkimg">
               <div className="img-text-sec">
